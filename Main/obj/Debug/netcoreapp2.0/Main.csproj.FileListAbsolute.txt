@@ -1,0 +1,11 @@
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/bin/Debug/netcoreapp2.0/Main.deps.json
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/bin/Debug/netcoreapp2.0/Main.runtimeconfig.json
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/bin/Debug/netcoreapp2.0/Main.runtimeconfig.dev.json
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/bin/Debug/netcoreapp2.0/Main.dll
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/bin/Debug/netcoreapp2.0/Main.pdb
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/obj/Debug/netcoreapp2.0/Main.csprojResolveAssemblyReference.cache
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/obj/Debug/netcoreapp2.0/Main.csproj.CoreCompileInputs.cache
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/obj/Debug/netcoreapp2.0/Main.AssemblyInfoInputs.cache
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/obj/Debug/netcoreapp2.0/Main.AssemblyInfo.cs
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/obj/Debug/netcoreapp2.0/Main.dll
+/Users/devsisters/work/concurrent-test/concurrent-test/Main/obj/Debug/netcoreapp2.0/Main.pdb

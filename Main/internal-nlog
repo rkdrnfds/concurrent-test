@@ -1,0 +1,148 @@
+2018-04-02 11:38:36.4679 Info Message Template Auto Format enabled
+2018-04-02 11:38:36.4791 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 11:38:36.4803 Info Loading assembly: NLog.Web
+2018-04-02 11:38:36.4849 Warn Type load exception. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+2018-04-02 11:38:36.5290 Info Adding target AspNetBufferingWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 11:38:36.5383 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 11:38:36.5468 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 11:38:36.5505 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 11:38:36.5623 Info Found 138 configuration items
+2018-04-02 11:38:36.7306 Error Error initializing target 'AspNetBufferingWrapper Target[elastic](ElasticSearch Target[ElasticSearch])'. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+   at NLog.Web.Targets.Wrappers.AspNetBufferingTargetWrapper.InitializeTarget()
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2018-04-02 11:38:37.1132 Warn Exception in layout renderer. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'. The system cannot find the file specified.
+
+File name: 'System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at NLog.Web.LayoutRenderers.AspNetLayoutRendererBase.Append(StringBuilder builder, LogEventInfo logEvent)
+   at NLog.LayoutRenderers.LayoutRenderer.RenderAppendBuilder(LogEventInfo logEvent, StringBuilder builder)
+
+
+2018-04-02 11:38:37.1140 Warn Exception in layout renderer. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'. The system cannot find the file specified.
+
+File name: 'System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at NLog.Web.LayoutRenderers.AspNetLayoutRendererBase.Append(StringBuilder builder, LogEventInfo logEvent)
+   at NLog.LayoutRenderers.LayoutRenderer.RenderAppendBuilder(LogEventInfo logEvent, StringBuilder builder)
+
+
+2018-04-02 11:39:15.6183 Info Configuration file change detected! Reloading in 1000ms...
+2018-04-02 11:39:16.6224 Info Reloading configuration...
+2018-04-02 11:39:16.6242 Info Message Template Auto Format enabled
+2018-04-02 11:39:16.6279 Info Found 138 configuration items
+2018-04-02 11:39:16.6288 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 11:39:16.6297 Info Adding target AspNetBufferingWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 11:39:16.6297 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 11:39:16.6307 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 11:39:16.6307 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 11:39:16.6318 Info Closing old configuration.
+2018-04-02 11:39:16.6474 Info Found 138 configuration items
+2018-04-02 11:39:16.7665 Error Error initializing target 'AspNetBufferingWrapper Target[elastic](ElasticSearch Target[ElasticSearch])'. Exception: System.TypeLoadException: Could not load type 'System.Web.IHttpModule' from assembly 'System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+   at NLog.Web.Targets.Wrappers.AspNetBufferingTargetWrapper.InitializeTarget()
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2018-04-02 11:46:09.3555 Info Configuration file change detected! Reloading in 1000ms...
+2018-04-02 11:46:10.3590 Info Reloading configuration...
+2018-04-02 11:46:10.3590 Info Message Template Auto Format enabled
+2018-04-02 11:46:10.3658 Info Found 138 configuration items
+2018-04-02 11:46:10.3658 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 11:46:10.3678 Info Adding target AsyncWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 11:46:10.3678 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 11:46:10.3687 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 11:46:10.3687 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 11:46:10.3687 Info Closing old configuration.
+2018-04-02 11:46:10.3700 Info Found 138 configuration items
+2018-04-02 11:46:28.8430 Info Message Template Auto Format enabled
+2018-04-02 11:46:28.8552 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 11:46:28.9061 Info Adding target AsyncWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 11:46:28.9259 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 11:46:28.9414 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 11:46:28.9456 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 11:46:28.9587 Info Found 138 configuration items
+2018-04-02 13:54:07.0217 Info Message Template Auto Format enabled
+2018-04-02 13:54:07.0747 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 13:54:07.2017 Info Adding target AsyncWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 13:54:07.2211 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 13:54:07.2315 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 13:54:07.2345 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 13:54:07.2395 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFile
+2018-04-02 13:54:07.2395 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncConsole
+2018-04-02 13:54:07.2611 Info Found 136 configuration items
+2018-04-02 13:55:48.9391 Info Configuration file change detected! Reloading in 1000ms...
+2018-04-02 13:55:49.9421 Info Reloading configuration...
+2018-04-02 13:55:49.9474 Info Message Template Auto Format enabled
+2018-04-02 13:55:49.9497 Info Found 136 configuration items
+2018-04-02 13:55:49.9511 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 13:55:49.9539 Info Adding target AsyncWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 13:55:49.9539 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 13:55:49.9547 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 13:55:49.9557 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 13:55:49.9557 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2018-04-02 13:55:49.9557 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFile
+2018-04-02 13:55:49.9557 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncConsole
+2018-04-02 13:55:49.9557 Info Closing old configuration.
+2018-04-02 13:55:49.9690 Info Found 135 configuration items
+2018-04-02 13:55:51.3070 Info Configuration file change detected! Reloading in 1000ms...
+2018-04-02 13:55:52.3091 Info Reloading configuration...
+2018-04-02 13:55:52.3122 Info Message Template Auto Format enabled
+2018-04-02 13:55:52.3160 Info Found 135 configuration items
+2018-04-02 13:55:52.3172 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 13:55:52.3189 Info Adding target AsyncWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 13:55:52.3199 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 13:55:52.3210 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 13:55:52.3210 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 13:55:52.3210 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2018-04-02 13:55:52.3210 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFile
+2018-04-02 13:55:52.3210 Info Closing old configuration.
+2018-04-02 13:55:52.3228 Info Found 136 configuration items
+2018-04-02 13:55:54.2746 Info Configuration file change detected! Reloading in 1000ms...
+2018-04-02 13:55:55.2794 Info Reloading configuration...
+2018-04-02 13:55:55.3036 Info Message Template Auto Format enabled
+2018-04-02 13:55:55.3049 Info Found 136 configuration items
+2018-04-02 13:55:55.3061 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 13:55:55.3078 Info Adding target AsyncWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 13:55:55.3078 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 13:55:55.3088 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 13:55:55.3097 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 13:55:55.3097 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: elastic
+2018-04-02 13:55:55.3097 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFile
+2018-04-02 13:55:55.3097 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncConsole
+2018-04-02 13:55:55.3097 Info Closing old configuration.
+2018-04-02 13:55:55.3118 Info Found 135 configuration items
+2018-04-02 13:55:58.9300 Info Configuration file change detected! Reloading in 1000ms...
+2018-04-02 13:55:59.9348 Info Reloading configuration...
+2018-04-02 13:55:59.9380 Info Message Template Auto Format enabled
+2018-04-02 13:55:59.9401 Info Found 135 configuration items
+2018-04-02 13:55:59.9413 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 13:55:59.9439 Info Adding target AsyncWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 13:55:59.9439 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 13:55:59.9447 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 13:55:59.9447 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 13:55:59.9459 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFile
+2018-04-02 13:55:59.9459 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncConsole
+2018-04-02 13:55:59.9459 Info Closing old configuration.
+2018-04-02 13:55:59.9474 Info Found 136 configuration items
+2018-04-02 13:57:22.5318 Info Message Template Auto Format enabled
+2018-04-02 13:57:22.5441 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 13:57:22.5957 Info Adding target AsyncWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 13:57:22.6041 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 13:57:22.6123 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 13:57:22.6158 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 13:57:22.6205 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFile
+2018-04-02 13:57:22.6207 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncConsole
+2018-04-02 13:57:22.6297 Info Found 136 configuration items
+2018-04-02 14:08:17.4191 Info Message Template Auto Format enabled
+2018-04-02 14:08:17.4310 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 14:08:17.5584 Info Adding target AsyncWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 14:08:17.5755 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 14:08:17.5839 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 14:08:17.5877 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 14:08:17.5926 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFile
+2018-04-02 14:08:17.5927 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncConsole
+2018-04-02 14:08:17.6112 Info Found 136 configuration items
+2018-04-02 14:09:04.2473 Info Message Template Auto Format enabled
+2018-04-02 14:09:04.2594 Info Loading assembly: NLog.Targets.ElasticSearch
+2018-04-02 14:09:04.3123 Info Adding target AsyncWrapper Target[elastic](ElasticSearch Target[ElasticSearch])
+2018-04-02 14:09:04.3213 Info Adding target AsyncWrapper Target[asyncFile](File Target[defaultFile])
+2018-04-02 14:09:04.3296 Info Adding target AsyncWrapper Target[asyncConsole](ColoredConsole Target[defaultConsole])
+2018-04-02 14:09:04.3334 Info Configured from an XML element in /Users/devsisters/work/concurrent-test/concurrent-test/Main/nlog.config...
+2018-04-02 14:09:04.3383 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncFile
+2018-04-02 14:09:04.3383 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: asyncConsole
+2018-04-02 14:09:04.3479 Info Found 136 configuration items
